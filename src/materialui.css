@@ -1,0 +1,28 @@
+/* .frst{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+} */
+body{
+    margin: 0;
+    display: block;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Adds space between the rows */
+  }
+  
+  .frst, .scnd {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px; /* Adds space between the items within the row */
+  }
+  
+  .frst > div, .scnd > div {
+    flex: 1;
+  }
+  
